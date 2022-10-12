@@ -177,7 +177,7 @@ On the other hand, the response of aRMOR involves the following fields.
  - `is_consistent`: It is a boolean specifying if the ontology is consistent.
  - `timeout`: It is an optional field used while performing SPARQL queries.
  - `queried_objects`: It is an optional list of strings representing the queried entities.
- - `sparql_queried_objects` It is an optional list of QueryItem (key-value pairs) given as the
+ - `sparql_queried_objects`: It is an optional list of QueryItem (key-value pairs) given as the
    result of a SPARQL query.
 
 Please, see the aRMOR [package](https://github.com/EmaroLab/armor) for more documentation.
