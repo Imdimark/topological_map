@@ -41,7 +41,7 @@ Object and data properties have a domain and a range, and they can be specified 
 of the classes for classifying individuals.
 
 Note that the OWL formalism relies on the *Open Word Assumption*, which states that unknown 
-information is not necessarily false. Also, be aware that two entities (i.e., classes, individuals
+information are neither verified nor false. Also, be aware that two entities (i.e., classes, individuals
 or properties) might be equivalent to each other if not explicitly stated as *disjoint*.
 
 Given some logic axioms in the ontology, a *reasoner* can be invoked to infer implicit knowledge.
