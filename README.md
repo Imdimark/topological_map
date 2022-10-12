@@ -92,7 +92,6 @@ relations allows the reasoner to infer each individual of type `DOOR` and `LOCAT
 be of sub-type `ROOM` and `CORRIDOR`. For instance, the example implemented in the 
 `topological_map_abox.owl` ontology tackles the environment described in the figure below.
 
-...picture environment
 <img src="https://github.com/buoncubi/topological_map/blob/main/figures/environment.png" width="300">
 
 The ontology available in this repository also implements three SWRL rules to infer 
