@@ -68,7 +68,7 @@ but it can only be used from a python-based ROS node.
 
 ## An Ontology for Topological Maps
 
-...picture class
+<img src="https://github.com/buoncubi/topological_map/blob/main/figures/classes.png" width="300">
 
 The ontology provided in this repository encodes the classes shown in the picture above, where 
 each `LOCATION` can be a `ROOM`, if it has only one `DOOR`, and a `CORRIDOR`, if it has more 
@@ -76,7 +76,7 @@ doors. Each door is associated with a location through the object property `hasD
 each `LOCATION` has the data property `visitedAt`, which represents the more recent timestamp (in 
 seconds) when the robot visited such a location (see figure below).
 
-... .picture location
+<img src="https://github.com/buoncubi/topological_map/blob/main/figures/location.png" width="300">
 
 The `ROBOT` class contains only one individual (i.e., `Robot1`), which specifies some 
 properties, as shown in the figure below. In particular, the `isIn` property specifies in which 
@@ -84,7 +84,7 @@ properties, as shown in the figure below. In particular, the `isIn` property spe
 the robot changed location. In addition, the property `urgencyThreshold` represents a parameter
 to identify the `URGENT` location to be visited (see more details below).
 
-...picture robot
+<img src="https://github.com/buoncubi/topological_map/blob/main/figures/robot.png" width="300">
 
 A new `LOCATION` can be defined by creating a new individual with some properties `hasDoor`, 
 which are related to other individuals that might be created to represent doors. The `hasDoor` 
@@ -93,6 +93,7 @@ be of sub-type `ROOM` and `CORRIDOR`. For instance, the example implemented in t
 `topological_map_abox.owl` ontology tackles the environment described in the figure below.
 
 ...picture environment
+<img src="https://github.com/buoncubi/topological_map/blob/main/figures/environment.png" width="300">
 
 The ontology available in this repository also implements three SWRL rules to infer 
  - the locations that are connected to another location through a door,
