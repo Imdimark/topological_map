@@ -171,10 +171,10 @@ see the possible `command` and the relative `primary_command_spec`, `secondary_c
 and `args`.
 
 On the other hand, the response of aRMOR involves the following fields.
- - `success`: It is a boolean specifying if the service was successfully computed.
+ - `success`: It is a Boolean specifying if the service was successfully computed.
  - `exit_code`: It is an integer specifying a possible source of errors.
  - `error_description`: It is a string describing a possible error.
- - `is_consistent`: It is a boolean specifying if the ontology is consistent.
+ - `is_consistent`: It is a Boolean specifying if the ontology is consistent.
  - `timeout`: It is an optional field used while performing SPARQL queries.
  - `queried_objects`: It is an optional list of strings representing the queried entities.
  - `sparql_queried_objects`: It is an optional list of QueryItem (key-value pairs) given as the
