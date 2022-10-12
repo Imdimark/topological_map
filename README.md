@@ -240,7 +240,7 @@ rosservice call /armor_interface_srv "armor_request:
 These logic axioms are enough to make the reasoning inferring that `D` is a `DOOR`, and if `L` is
 a `ROOM` or a `CORRIDOR`.
 
-### Robot's movements 
+### Robot's Movements 
 
 The `ROBOT` named `Robot1` is always in a location, and this should be consistently represented
 in the ontology with through the `isIn` property, over time. To represent the location of the
