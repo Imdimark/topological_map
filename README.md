@@ -1,5 +1,5 @@
 # Interact With an Ontology Through the aRMOR Service
-**An ROS-based exercise for the Experimental Robotics Laboratory course held at the University of Genoa**  
+**An ROS-based tutorial for the Experimental Robotics Laboratory course held at the University of Genoa**  
 Author: *Luca Buoncompagni*
 
 ---
