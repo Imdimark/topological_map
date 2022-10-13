@@ -378,7 +378,7 @@ rosservice call /armor_interface_srv "armor_request:
   command: 'SAVE'
   primary_command_spec: ''
   secondary_command_spec: ''
-  args: ['/root/Desktop/my_topological_map.owl']" 
+  args: ['<file_path>/my_topological_map.owl']" 
 ```
 
 ---
