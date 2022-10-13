@@ -284,10 +284,10 @@ individual. Therefore, when a timestamp is introduced for the first time, the `A
 should be used. Then, similarly to above, the `REPLACE` command should be used for updating such 
 a timestamp.
 
-Note that the `REPLACE` command also requires specifying the old value to override. Such a value 
-might be retrieved from the ontology through a query. However, if some manipulations have been 
-performed, or if it is the first query we request to aRMOR, then we should invoke the reasoner 
-first, i.e., make the request
+Note that the `REPLACE` command also requires the old value to override. Such a value might be 
+retrieved from the ontology through a query. However, if some manipulations have been performed, 
+or if it is the first query we request to aRMOR, then we should invoke the reasoner first, i.e., 
+make the request
 ```bash
 rosservice call /armor_interface_srv "armor_request:
   client_name: 'example'
