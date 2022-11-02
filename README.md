@@ -381,4 +381,10 @@ rosservice call /armor_interface_srv "armor_request:
   args: ['<file_path>/my_topological_map.owl']" 
 ```
 
+# Known issues
+
+Check the known issues in the *Issue* tab of this reposiory. 
+They concerns the [armor_py_api](https://github.com/buoncubi/topological_map/issues/1) client, 
+and [opening ontologies with SWRL rules on Protégé](https://github.com/buoncubi/topological_map/issues/2).
+
 ---
