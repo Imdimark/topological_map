@@ -10,7 +10,7 @@ This tutorial shows how to use the [topological_map.owl](topological_map.owl) on
 Such an ontology  represents indoor locations and a mobile robot for surveillance purposes.
 
 You can find such an ontology in this repository, where the [topological_map_abox.owl](topological_map_abox.owl) 
-is a copy of the `topological_map.owl` file but without the Abox, i.e., with some 
+is a copy of the `topological_map.owl` file but with the Abox, i.e., with some 
 individuals representing a specific environment for showing purposes. You might want to open 
 the `topological_map_abox.owl` ontology with the Protégé editor (see installation below) to 
 better know its structure, while the `topological_map.owl` ontology should be used by the 
